@@ -62,6 +62,8 @@ higher. Before build and install you should ensure following:
  * Your PATH variable is configured so that `pg_config` command available, or
    set PG_CONFIG variable.
 
+Pre-built `pg_wait_sampling` packages are provided in official PostgreSQL repository: https://download.postgresql.org/pub/repos/
+
 Typical installation procedure may look like this:
 
     $ git clone https://github.com/postgrespro/pg_wait_sampling.git
